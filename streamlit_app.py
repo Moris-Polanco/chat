@@ -11,11 +11,11 @@ openai.api_key = os.getenv('OPENAI_API_KEY')
 
 
 start_sequence = "\nAI:"
-restart_sequence = "\n\nPerson:"
+restart_sequence = "\n\Humano:"
 
 st.set_page_config(
     page_icon='🏢',
-    page_title='ChatBot del Enología',
+    page_title='Chat Bot de Enología',
     layout="centered",
     initial_sidebar_state="expanded",
     menu_items={
@@ -65,25 +65,8 @@ with st.expander("¿No está seguro de qué preguntar?"):
     st.markdown("""
 Pruebe con alguna de estas preguntas:
 ```
-1. ¿Cómo influye la fe en la libertad, personal y política?
-2. ¿Cómo se relacionan fe y desarrollo económico?
-3. ¿En qué principios se funda la civilización occidental?
-4. ¿Qué postula el principio de subsidiariedad?
-5. ¿Qué ideas deben presidir el florecimiento humano?
-6. ¿Qué lugar ocupa el bienestar material en el florecimiento humano?
-7. ¿Cómo se relaciona la verdad con la libertad?
-8. ¿Cómo damos gloria a Dios?
-9. ¿Puede un cristiano ser liberal?
-10. ¿Qué ideas o principios deben presidir el ordenamiento social y político?
-11. ¿Puede un cristiano ser capitalista?
-12. ¿Cómo sostener que la moral es universal y objetiva, después de Darwin?
-13. ¿Qué es más importante: la libertad o la verdad?
-14. ¿Por qué permitieron los cristianos que se cerraran las iglesias durante la pandemia de Covid?
-15. ¿Occidente sigue siendo cristiano o ya es poscristiano?
-16. ¿Es la modernidad un proyecto cultural cristiano?
-17. ¿Cuál es la finalidad de la vida humana?
-18. ¿Puede un cristiano ser libertario?
-19. ¿Qué es el bien común?
-20. ¿Puede un cristiano sostener que el egoísmo es una virtud y que el altruismo es malo?
+1. ¿A qué temperatura se debe servir el vino tinto?
+2. ¿Qué es un tempranillo?
+3. ¿Vino tinto con carnes rojas y blanco con carnes blancaas?
 ```
     """)

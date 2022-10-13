@@ -52,7 +52,7 @@ def append_interaction_to_chat_log(question, answer, chat_log=None):
 
 
 question = st.text_input("Pregunta sobre vinos:",
-                         value='¿Qué es una variedad?'
+                         value='¿Qué es una variedad?')
 message(question, is_user=True)
 
 answer = mises(question, chat_log)

@@ -67,6 +67,6 @@ Pruebe con alguna de estas preguntas:
 ```
 1. ¿A qué temperatura se debe servir el vino tinto?
 2. ¿Qué es un tempranillo?
-3. ¿Vino tinto con carnes rojas y blanco con carnes blancaas?
+3. ¿Vino tinto con carnes rojas y blanco con carnes blancas?
 ```
     """)

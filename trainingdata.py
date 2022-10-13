@@ -1,6 +1,6 @@
 training_dataset = [
 
-      "MUCHA HISTORIA Y MUCHOS VINOS",
+   "MUCHA HISTORIA Y MUCHOS VINOS",
    "Un grupo de arqueólogos descubrió, en una región al sur del Cáucaso, seis jarras de nueve litros enterradas en el suelo de una casa. Gracias al estudio de estos hallazgos se pudo averiguar que estos recipientes se podrían datar en 5.400 años a.C. Algunos mostraban residuos orgánicos de color amarillento o rojizo que resultaron ser ácido tartárico y tartrato de cal, sustancias que se producen fundamentalmente en la fermentación de las uvas. Y había, además, resina de pistacho, recomendada por Plinio miles de años después para preservar el vino de alteraciones bacterianas. Es decir, más de siete milenios de historia del mosto de uva fermentado: demasiado tiempo para una sola definición.\nMucho se conoce sobre el cultivo de la vid y los métodos de elaboración del vino, así como sobre su importancia en los rituales religiosos y en las celebraciones paganas. En todos ellos se utiliza como ofrenda básica. Embriagados con el vino, los babilonios rinden culto al dios Marduk. Los dioses del vino y de la viña serán los dioses del más allá y de la resurrección: Osiris, Dioniso, Baco. \nDesde tiempos inmemoriales el vino se considera una transfiguración de la vida, como lo demuestra la leyenda griega de Ampelos, el dios que da su sangre a la viña. Y esa tradición cultural se mantiene en la iconografía medieval cristiana en las reproducciones que nos muestra la llamada Prensa Mística, en que la sangre de Cristo se identifica con el vino.",
 
    "LOS SABORES DEL VINO A LO LARGO DE LA HISTORIA",
@@ -1095,8 +1095,3 @@ training_dataset = [
 
 
 ]
-{
-    'import_path': 'chatterbot.logic.SpecificResponseAdapter',
-    'input_text': 'Help',
-    'output_text': 'Ok, here is a link: https://vakilsearch.com/'
-}

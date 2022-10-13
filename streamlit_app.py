@@ -10,12 +10,12 @@ from Sentiment import sentiment
 openai.api_key = os.getenv('OPENAI_API_KEY')
 
 
-start_sequence = "\nIFYL:"
+start_sequence = "\nAI:"
 restart_sequence = "\n\nPerson:"
 
 st.set_page_config(
     page_icon='🏢',
-    page_title='ChatBot del Instituto Fe y Libertad',
+    page_title='ChatBot del Enología',
     layout="centered",
     initial_sidebar_state="expanded",
     menu_items={
@@ -24,13 +24,13 @@ st.set_page_config(
         'Report a bug': "mailto:mpolanco@feylibertadd.org",
     }
 )
-st.title("ChatBot del Instituto Fe y Libertad")
+st.title("Chat Bot de Enología")
 
-st.sidebar.title("🏢 ChatBot del IFYL")
+st.sidebar.title("🏢 Chat Bot de Enología")
 st.sidebar.markdown("""
 
 **Feedback/Questions**:
-[Instituto Fe y Libertad](https://feylibertad.org)
+[ARIN](https://arin.website)
 """)
 
 if 'generated' not in st.session_state:
@@ -51,8 +51,8 @@ def append_interaction_to_chat_log(question, answer, chat_log=None):
         return f'{chat_log}{restart_sequence} {question}{start_sequence}{answer}'
 
 
-question = st.text_input("Pregúntenos:",
-                         value='¿Cuál es su misión?')
+question = st.text_input("Pregunta sobre vinos:",
+                         value='¿Qué es una variedad?'
 message(question, is_user=True)
 
 answer = mises(question, chat_log)

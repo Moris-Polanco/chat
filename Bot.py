@@ -22,7 +22,7 @@ def mises(question, chat_log=None):
         top_p=1,
         frequency_penalty=0,
         presence_penalty=0.6,
-        stop=[" Humano:", " AI:"],
+        stop=["\n"],
     )
     story = response['choices'][0]['text']
     return str(story)

@@ -17,7 +17,7 @@ st.set_page_config(
     page_icon='🏢',
     page_title='Chat Bot de Enología',
     layout="centered",
-    initial_sidebar_state="expanded",
+    initial_sidebar_state="auto",
     menu_items={
         'About': "This is a chatbot created using OPENAI's Advance GPT-3 model",
         'Get Help': 'mailto:mpolanco@feylibertad.org',
